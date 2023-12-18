@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body {
+    background:rgb(0, 0, 0);
+    background-position: center;
+    background-size: cover;
+    
+}
+#header-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Assets/64k-ultra-hd-hacker.jpg);
+    background-size: cover;
+    background-position: center;   
+    
+}
+.container{
+    margin: 10px 10%;
+}
+nav{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+    
+}
+.logo{
+    width: 250px;
+    transition:0.5s;
+    border-radius: 30px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav .clickme {
+    margin-left:20px;
+    padding: 7px;
+    text-align: center;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 17px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    transition: ease-in 0.5s;
+}
+nav .clickme:hover {
+    color: black;
+    background: #fff;   
+}
+nav ul li a{
+    padding: 7px;
+    text-decoration: none;
+    color:rgb(0, 255, 64); 
+    font-family: 'Courier New', Courier, monospace;
+    font-size:large;
+    background: none;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    background: #fff;
+    color: #080808;
+}
+nav .header-text {
+    margin-top: 270px;
+    
+    font-size: 2em;
+    font-weight: 100;  
+}
+nav .header-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #fff;
+}
+.logo{
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    letter-spacing: 5px;
+}
+span {
+    color: rgb(0, 255, 64);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    transition: 0.5s;
+    text-shadow: 1px 1px 30px rgb(0, 255, 64);
+    position: relative;
+    display: inline-block; 
+}
+
+span:hover {
+    transform: scale(1.1);
+    color: #fff;
+    font-size: 1.35em;
+}
+
+
+span:hover{
+    color: #fff;
+    font-size: 1.35em;
+    align-items: center;
+}
+hr{
+    border: 2px  solid;
+    color: #ffffff;
+    
+}
+header{
+    margin-top: 2.5%;
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-shadow: 0px 0px 10px rgb(0, 255, 64);
+    letter-spacing: 5px;
+    margin-bottom: 5%;
+}
+
+#projects-section h2{
+    text-align: center;
+    color: rgb(0, 255, 64);
+    text-shadow: 0px 0px 10px rgb(0, 255, 64);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    position:relative ;
+    margin-bottom: 10%;
+    font-size: 50px;
+}
+.case-1 {
+    position: relative;
+    width: 30%;
+    height: 20%;
+    margin-top: 10%;
+    margin-right: 7%;
+    border-radius: 15%;
+    z-index: 1;
+    border: 5px solid whitesmoke;
+}
+#projects-section{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+    position: relative;
+    margin-bottom: 20%;
+    
+}
+footer{
+    background: black;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    
+}
+footer h3{
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+.case-studies{
+    margin-left: 10%;
+    text-align: center;
+    color: rgb(255, 255, 255)  ;
+    text-justify: inter-word;
+}
+    
+.case-studies > p{
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    border: 3.5px solid white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    background: rgb(13, 13, 20);
+    opacity: 0.4;
+    transition: 1s;
+}
+.case-studies > p:hover{
+    background: whitesmoke;
+    font-weight: bolder;
+    color: #000000;
+    box-shadow:0px 0px 30px #575454;
+    transform: scale(1.05);
+    opacity: 1;
+}
+.header-text > h5{
+    margin-top: 5px;
+    font-size: 0.5em;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+.case-studies > h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    margin-bottom: 10%;
+}
+#contact-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+    position: relative;
+    margin-bottom: 30px;
+}
+.social-media img{
+    width: 50px;
+    display: grid;
+    margin-bottom: 50%;
+    margin-left: 2em;
+    border-radius: 50%;
+    border:2px solid#fff;
+    transition: 0.6s;
+}
+.social-media img:hover{
+    transform: scale(1.3);
+    box-shadow: 0px 0px 20px #ffffff83;
+}
+.messages{
+    margin-right: 20%;
+    display: grid;
+}
+.messages h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: x-large;
+    align-items: center;
+    text-align: left;
+    color: #fff;
+}
+input{
+    background: grey;
+    border-radius: 10px;
+    border: 3px solid white;
+    width: 500px;
+    height: 50px;
+    font-size: larger;
+    color: #fff;
+    margin-bottom: 10%;
+    
+}
+button{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin-left: 50%;
+    border-radius: 7px;
+    border: 5px solid rgb(255, 255, 255);
+    background: #000000;
+    position: relative;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    margin-bottom: 10%;
+    transition: 0.5s;
+}
+button:hover{
+    color: #000000;
+    background: #fff;
+}
+.sub-heading{
+   font-family: 'Courier New', Courier, monospace;
+   color: rgb(0, 255, 64);
+   font-size: 3em;
+   text-align: center;
+}
+.case-2{
+    margin-right: 20%;
+    position: relative;
+    margin-top: 50%;
+    transition: 0.5s;
+    opacity: 0.3;
+}
+.case-2:hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+.case-2 h3{
+    
+    font-size: 3em;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.case-2 p{
+    margin-top: 10%;
+    color: #fff;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    background: rgb(13, 13, 20);
+    border: 3.5px solid white;
+    padding: 10px;
+    font-weight: 600;
+}
